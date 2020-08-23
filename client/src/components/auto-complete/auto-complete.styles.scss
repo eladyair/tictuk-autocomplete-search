@@ -1,0 +1,23 @@
+.autocomplete-container {
+    background-color: #1976d2;
+    height: 6rem;
+    width: 26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autocomplete-input {
+    height: 3.5rem;
+    padding-left: 2rem;
+    width: 24rem;
+    background-color: #3b8ad9;
+    color: #ffffff;
+    outline: none;
+    border: solid 1px #87b8e8;
+    border-radius: 0.3rem;
+
+    &::placeholder {
+        color: #87b8e8;
+    }
+}

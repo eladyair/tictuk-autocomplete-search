@@ -1,0 +1,7 @@
+.app-conatiner {
+    margin: 0 auto;
+    width: 98rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
